@@ -18,7 +18,7 @@
 #include <stdio.h>
 
 #ifdef WEBP_HAVE_PNG
-#include <png.h>
+#include <../libpng/png.h>
 #include <setjmp.h>   // note: this must be included *after* png.h
 #include <stdlib.h>
 #include <string.h>

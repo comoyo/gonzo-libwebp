@@ -21,7 +21,7 @@
 #endif
 
 #ifdef WEBP_HAVE_PNG
-#include <png.h>
+#include <../libpng/png.h>
 #endif
 
 #ifdef HAVE_WINCODEC_H
